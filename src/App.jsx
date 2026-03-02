@@ -58,7 +58,9 @@ function App() {
               borderBottom: "2px solid #1e40af",
               paddingBottom: "0.5rem",
             }}
-          ></h2>
+          >
+            สมาชิก
+          </h2>
           {USERS.map((user) => (
             <UserCard key={user.id} name={user.name} email={user.email} />
           ))}
